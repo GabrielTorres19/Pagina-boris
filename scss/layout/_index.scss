@@ -1,0 +1,121 @@
+/* main */
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: $main-color;
+}
+.cards__body img{  
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+}
+
+
+.cards__body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #313131ab;
+    border-radius: 8px;
+    width: 20%;
+    text-align: left ;
+    margin: 110px;
+    background-color:$main-color ;
+    position: relative; 
+}
+
+.new{
+    border: 2px;
+    border-radius: 10px ;
+    background-color: #e67e22;
+    padding: 5px;
+    position: absolute;
+    top: 5px;
+    right: -25px;
+    color: $main-color;
+}
+
+.cards__body h2{
+    color: #fff;
+    padding: 10px;
+    font-family: 'Sedgwick Ave Display' ;
+    font-size: large;
+    font-weight: 300!important;
+}
+ .cards__body p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700!important;
+ }
+    
+/* grilla */
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-template-rows: repeat(1, 1fr) ;
+    grid-template-areas: 
+    'area1 area2 area3 area4'
+    ;
+
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.caja img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+    background-color: $main-color;
+}
+.c1{
+grid-area: area1;
+}
+.c2{
+grid-area: area2;
+}
+.c3{
+grid-area: area3;
+}
+.c4{
+grid-area: area4;
+}
+.card{
+    background-color: $main-color;
+    color: #fff;
+}
+
+   
+
+.superior{
+    background-color: $main-color;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: $light-color;
+    font-size: 24px;   
+    font-family: 'Sedgwick Ave Display';
+    position: relative;
+    top: 30px;
+}
+.superior1{
+    background-color: $main-color;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    color: $light-color;
+    font-size: 24px;   
+    font-family: 'Sedgwick Ave Display';
+    position: relative;
+}
