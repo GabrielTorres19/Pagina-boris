@@ -23,6 +23,10 @@ footer {
   color: #fff;
 }
 
+footer div a {
+  color: #fff;
+}
+
 /* main */
 .cards {
   display: flex;
@@ -52,6 +56,13 @@ footer {
   margin: 110px;
   background-color: #1d1c1c;
   position: relative;
+  cursor: default;
+}
+
+.cards__body:hover {
+  box-shadow: 5px 5px 5px 5px rgba(97, 91, 99, 0.1215686275);
+  transform: translateY(-3%);
+  transition: all 400ms ease;
 }
 
 .new {

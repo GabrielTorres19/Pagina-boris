@@ -27,6 +27,13 @@
     margin: 110px;
     background-color:$main-color ;
     position: relative; 
+    cursor: default;
+}
+.cards__body:hover{
+    box-shadow: 5px 5px 5px 5px #615b631f;
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+
 }
 
 .new{
